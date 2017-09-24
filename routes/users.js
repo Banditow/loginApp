@@ -13,10 +13,12 @@ router.get('/register', function(req, res){
 //Login
 router.get('/login', function(req, res){
 	res.render('login');
+	/*
 	console.log(User.getUserByUsername('Benny', function(err, user){
 	//	if(err) throw err;
 		console.log(user.username + ' from routes');
 	}));
+	*/
 });
 
 //Register
